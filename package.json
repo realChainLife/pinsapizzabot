@@ -1,0 +1,30 @@
+{
+  "name": "alibabot",
+  "version": "1.0.0",
+  "description": "A Telegram bot, for the use case of a local pizza shop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/alibabot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "pizza",
+    "shop",
+    "reservation",
+    "delivery"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "6.11.3"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "telegraf": "^3.17.2"
+  }
+}
